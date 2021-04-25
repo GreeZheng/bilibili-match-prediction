@@ -23,8 +23,8 @@ public class MatchGame implements Task {
     @Override
     public void run() throws UnsupportedEncodingException, InterruptedException {
 
-        if(oftenAPI.getCoinBalance()<20){
-            log.info("20个硬币都没有，参加什么预测呢？任务结束");
+        if(oftenAPI.getCoinBalance()<30){
+            log.info("30个硬币都没有，参加什么预测呢？任务结束");
             return;
         }
         int pn=1;
